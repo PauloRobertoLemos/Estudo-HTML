@@ -1,0 +1,193 @@
+/***********************************************
+noticias cidade*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: url(../imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+
+}
+
+#Topo {
+        height: 150px;
+        padding-top: 25px;
+        background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+/***************************************
+Barra de navegação*/
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#Topo ul {
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#Topo ul li {
+    float: left;
+}
+
+#Topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#Topo ul .primeiro a {
+    background: none;
+}
+
+#Topo ul a:hover {
+    color: #69001d;
+}
+
+body.home #navegação a#home,
+body.brasil #navegação a#brasil,
+body.internacional #navegação a#internacional,
+body.economia #navegação a#economia,
+body.saude #navegação a#saude,
+body.ciencias #navegação a#ciencias,
+body.fotos #navegação a#fotos
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+/****configura layout de três colunas****/
+
+#conteudo {
+    margin-top: 60px;
+    background: lightgray;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#tres-colunas #primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: blue;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-coluna {
+    width: 750px;
+    margin: 0 0 20px 195px;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    padding: 5px 0 5px 0;
+}
+
+/***Caixa***/
+.caixa {
+    margin: 10px 0;
+    background: lightgray url(../imagens/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;    
+}
+
+/***Formatar os menus laterais***/
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid red;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/******Formatando formulário******/
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 160px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+}
+
+/***Rodape***/
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 720px;
+    margin: 0 auto;
+    color: #fff;
+}
